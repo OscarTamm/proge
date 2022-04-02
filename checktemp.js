@@ -1,4 +1,4 @@
-function checktemp(temp){
+function checkTemp(temp){
     if(temp<=20){
     console.log("liiga külm");
     return -1;
@@ -14,6 +14,6 @@ function checktemp(temp){
     }
 }
 
-checktemp(5)
+checkTemp(5)
 
 
